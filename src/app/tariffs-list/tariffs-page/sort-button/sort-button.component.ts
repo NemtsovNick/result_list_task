@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Tariff } from '../../../_interfaces/tariff';
+import { Tariff } from '../../../interfaces/tariff';
 
 @Component({
   selector: 'app-sort-button',

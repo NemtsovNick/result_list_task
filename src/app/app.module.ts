@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 
 import { TariffsListModule } from './tariffs-list/tariffs-list.module';
 
-import { ApiService } from './_services/api-service.service';
+import { ApiService } from './services/api-service.service';
 
 @NgModule({
   declarations: [

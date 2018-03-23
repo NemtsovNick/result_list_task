@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Tariffs } from '../_interfaces/tariffs';
+import { Tariffs } from '../interfaces/tariffs';
 
 @Injectable()
 export class ApiService {

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ApiService } from '../../_services/api-service.service';
-import { Tariff } from '../../_interfaces/tariff';
-import { Tariffs } from '../../_interfaces/tariffs';
+import { ApiService } from '../../services/api-service.service';
+import { Tariff } from '../../interfaces/tariff';
+import { Tariffs } from '../../interfaces/tariffs';
 
 @Component({
   selector: 'app-tariffs-page',
