@@ -1,0 +1,19 @@
+<div class="content-wrapper">
+  <nav class="navbar navbar-light bg-light">
+    <div class="btn-group" role="group" aria-label="Ordering">
+      <a class="navbar-brand">Sort by:</a>
+      <app-sort-button
+        *ngFor="let button of sortingData"
+        [sortingFieldName]="button.sortingFieldName"
+        [sortingKey]="button.sortingKey"
+        [tariffs]="tariffs">
+      </app-sort-button>
+    </div>
+  </nav>
+
+  <app-tariff-item
+    *ngFor="let tariff of tariffs; let idx = index;"
+    [tariff]="tariff"
+    [index]="idx">
+  </app-tariff-item>
+</div>

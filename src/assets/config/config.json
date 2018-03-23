@@ -1,0 +1,49 @@
+{
+  "tariffs": [
+    {
+      "title": "Example tariff",
+      "download_speed": 12,
+      "upload_speed": 12,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare est in aliquet faucibus. Ut lacus augue, bibendum eget dignissim sed, fringilla sed elit. Mauris ipsum ligula, porttitor sed mi at, commodo gravida enim. Sed sed gravida lacus. Praesent metus quam, condimentum et magna non, rutrum viverra sem. Etiam euismod congue ex, sed placerat eros aliquam et. Curabitur mollis metus nibh, non hendrerit augue vulputate eu. Sed fermentum vestibulum convallis.",
+      "price": 12,
+      "currency": "$",
+      "speed": "Mbits"
+    },
+    {
+      "title": "S.M.A.R.T.",
+      "download_speed": 100,
+      "upload_speed": 100,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare est in aliquet faucibus. Ut lacus augue, bibendum eget dignissim sed, fringilla sed elit. Mauris ipsum ligula, porttitor sed mi at, commodo gravida enim. Sed sed gravida lacus. Praesent metus quam, condimentum et magna non, rutrum viverra sem. Etiam euismod congue ex, sed placerat eros aliquam et. Curabitur mollis metus nibh, non hendrerit augue vulputate eu. Sed fermentum vestibulum convallis.",
+      "price": "25",
+      "currency": "$",
+      "speed": "Mbits"
+    },
+    {
+      "title": "WhiteHat",
+      "download_speed": 100,
+      "upload_speed": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare est in aliquet faucibus. Ut lacus augue, bibendum eget dignissim sed, fringilla sed elit. Mauris ipsum ligula, porttitor sed mi at, commodo gravida enim. Sed sed gravida lacus. Praesent metus quam, condimentum et magna non, rutrum viverra sem. Etiam euismod congue ex, sed placerat eros aliquam et. Curabitur mollis metus nibh, non hendrerit augue vulputate eu. Sed fermentum vestibulum convallis.",
+      "price": 15,
+      "currency": "$",
+      "speed": "Mbits"
+    },
+    {
+      "title": "BlackHat",
+      "download_speed": 1000,
+      "upload_speed": 1000,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare est in aliquet faucibus. Ut lacus augue, bibendum eget dignissim sed, fringilla sed elit. Mauris ipsum ligula, porttitor sed mi at, commodo gravida enim. Sed sed gravida lacus. Praesent metus quam, condimentum et magna non, rutrum viverra sem. Etiam euismod congue ex, sed placerat eros aliquam et. Curabitur mollis metus nibh, non hendrerit augue vulputate eu. Sed fermentum vestibulum convallis.",
+      "price": 1,
+      "currency": "$",
+      "speed": "Mbits"
+    },
+    {
+      "title": "DialUp",
+      "download_speed": 0.054,
+      "upload_speed": 0.016,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare est in aliquet faucibus. Ut lacus augue, bibendum eget dignissim sed, fringilla sed elit. Mauris ipsum ligula, porttitor sed mi at, commodo gravida enim. Sed sed gravida lacus. Praesent metus quam, condimentum et magna non, rutrum viverra sem. Etiam euismod congue ex, sed placerat eros aliquam et. Curabitur mollis metus nibh, non hendrerit augue vulputate eu. Sed fermentum vestibulum convallis.",
+      "price": 50,
+      "currency": "$",
+      "speed": "Kbits"
+    }
+  ]
+}

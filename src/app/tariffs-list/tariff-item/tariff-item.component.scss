@@ -1,0 +1,112 @@
+.card {
+  border-radius: 0;
+  margin: 8px 0;
+  height: 100px;
+  font-size: 0.9rem;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.15);
+
+  .card-body {
+    padding: 0;
+  }
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.tariff-index {
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+  width: 20px;
+  height: 100%;
+  float: left;
+  position: relative;
+
+  span {
+    padding: 4px;
+  }
+}
+
+.tariff-name {
+  padding: 8px 16px;
+}
+
+.tariff-prices {
+  padding: 8px;
+  font-size: 0.75rem;
+
+  .stats {
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #000;
+    margin: 4px 0;
+
+    .badge {
+      border-radius: 0;
+    }
+  }
+}
+
+.tariff-description {
+  padding: 8px 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 90px;
+  position: relative;
+
+  .overflow-item {
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(0,15,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,15,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,15,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000fff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  }
+}
+
+.button-row {
+  .col {
+    float: left;
+  }
+
+  .price {
+    display: block;
+    font-weight: 700;
+    padding: 8px 16px;
+    text-align: right;
+
+    .badge {
+      font-size: 1.1rem;
+    }
+  }
+
+  .button {
+    display: block;
+    padding: 8px 16px;
+  }
+}
+
+button {
+  min-width: 50%;
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  .info-row {
+    max-width: 55%;
+  }
+
+  .button-row {
+    width: 185px;
+
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+}

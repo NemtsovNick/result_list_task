@@ -1,0 +1,13 @@
+<div class="btn-group" dropdown>
+  <button dropdownToggle type="button" class="btn btn-outline-secondary dropdown-toggle">
+    {{sortingFieldName}} <span class="caret"></span>
+  </button>
+  <ul *dropdownMenu class="dropdown-menu" role="menu">
+    <li role="menuitem">
+      <a class="dropdown-item" (click)="sortTariffs(sortingKey, 'asc')">&uarr; Ascending</a>
+    </li>
+    <li role="menuitem">
+      <a class="dropdown-item" (click)="sortTariffs(sortingKey, 'desc')">&darr; Descending</a>
+    </li>
+  </ul>
+</div>

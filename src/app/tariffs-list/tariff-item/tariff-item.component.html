@@ -1,0 +1,35 @@
+<div class="card w-100 row">
+  <div class="card-body row">
+
+    <div class="info-row col-xs-5 col-md-8 col-sm-9">
+      <div class="tariff-index">
+        <span>{{index + 1}}</span>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-xs-4 col-sm-5 col-lg-3 tariff-name">
+          {{title}}
+        </div>
+
+        <app-download-upload-ratio
+          class="col-md-9 col-xs-4 col-sm-7 col-lg-4"
+          [downloadRatio]="download_speed"
+          [uploadRatio]="upload_speed"
+          [speed]="speed">
+        </app-download-upload-ratio>
+
+        <div class="col-lg-5 tariff-description d-none d-lg-block">
+          {{description}}
+          <div class="overflow-item"></div>
+        </div>
+      </div>
+    </div>
+
+    <app-tariff-price-details
+      class="col-md-4 col-sm-3 col-xs-6 button-row"
+      [currency]="currency"
+      [price]="price">
+    </app-tariff-price-details>
+
+  </div>
+</div>

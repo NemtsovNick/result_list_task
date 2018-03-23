@@ -1,0 +1,16 @@
+<div class="btn-container">
+  <div class="col">
+    <div class="row price">
+      <div class="badge badge-secondary">{{currency}}{{price}}</div>
+    </div>
+    <div class="row button d-none d-sm-block">
+      <button type="button" class="btn btn-info" [disabled]="disabled" (click)="viewTariff()">
+        To Tariff &gt;
+      </button>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-info d-block d-sm-none small-btn" [disabled]="disabled" (click)="viewTariff()">
+    &gt;
+  </button>
+</div>
